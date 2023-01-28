@@ -12,7 +12,7 @@ import time
 # swap which fork is first and which is second and retry until getting both.
 #
 # See discussion page note about 'live lock'.
-
+ 
 
 class Philosopher(threading.Thread):
 
